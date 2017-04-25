@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
+
+
 export class Restaurants extends Component {
 
   render() {
@@ -16,6 +18,10 @@ export class Restaurants extends Component {
     );
   }
 };
+
+
+
+
 
 function mapStateToProps(state){
   return {restaurants: state.restaurants}
